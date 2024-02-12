@@ -89,7 +89,10 @@ To start exploring GPTLabs and its model evolution, execute these commands:
 
 ---
 
-Generated mostly with [readme-ai](https://github.com/eli64s/readme-ai).
+The following is generated mostly with [readme-ai](https://github.com/eli64s/readme-ai).
+
+
+GPTLabs is a codebase that provides functionality for training and optimizing GPT (Generative Pre-trained Transformer) models. It includes modules for data handling, models, optimizers, trainers, and utilities. GPTLabs allows efficient data processing, model decoding, and optimization, making it a valuable tool for tasks such as natural language processing, machine learning, and neural networks. It offers various pre-built GPT models with increasing complexity, including attention mechanisms and multi-head self-attention. Users can train these models using specified hyperparameters, generate text, and save model architecture and information. GPTLabs facilitates the development and deployment of sophisticated language models, enabling effective sequence generation and analysis.
 
 ---
 
