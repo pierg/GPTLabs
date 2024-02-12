@@ -25,7 +25,7 @@
 
 ## Overview
 
-GPTLabs provides a step-by-step implementation guide to developing Generative Pre-trained Transformer (GPT) models, starting from simple embedding layers and advancing to the full transformer architecture. This approach is inspired by [Andrej Karpathy's nanoGPT](https://github.com/karpathy/nanoGPT) and enables users to explore the evolution of GPT models. Check out `gptlabs/main.py` for detailed model definitions and commentary on each version's contributions.
+GPTLabs provides a step-by-step implementation guide to developing Generative Pre-trained Transformer (GPT) models, starting from simple embedding layers and advancing to the full transformer architecture. This approach is inspired by [Andrej Karpathy's nanoGPT](https://github.com/karpathy/nanoGPT) and enables users to explore the evolution of GPT models. Check out [gptlabs/main.py](gptlabs/main.py) for detailed model definitions and details on each version's contributions.
 
 ### Models Overview
 
