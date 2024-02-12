@@ -32,7 +32,8 @@ GPTLabs provides a step-by-step implementation guide to developing Generative Pr
 - **Computation**: Adds a FeedForward computation block for enhanced processing.
 - **Transformer**: Implements multiple Transformer blocks, each with MultiHeadAttention and FeedForward, including residual connections and layer normalization.
 - **GPT**: Enhances the transformer architecture, mirroring the decoder component of GPT-3.
-- 
+
+
 GPTLabs is an invaluable toolkit for those interested in natural language processing, offering efficient data handling, model training, and text generation capabilities.
 
 
