@@ -89,6 +89,9 @@ To start exploring GPTLabs and its model evolution, execute these commands:
 
 ---
 
+Generated mostly with [readme-ai](https://github.com/eli64s/readme-ai).
+
+---
 
 ##  Repository Structure
 
