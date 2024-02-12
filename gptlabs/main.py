@@ -62,10 +62,10 @@ models = {
     "computation": GPT_v6(vocab_size=vocab_size, n_embd=32, block_size=8, head_size=8, dropout=0.1, num_heads=4),
 
     # Adds multiple layers of Transformer blocks, each block includes MultiHeadAttention and FeedForward with residual connections and layer normalization.
-    "transformer": GPT_v7(vocab_size=vocab_size, n_embd=32, block_size=8, dropout=0.1, num_heads=4, num_layers=3),
+    "1_transformer": GPT_v7(vocab_size=vocab_size, n_embd=32, block_size=8, dropout=0.1, num_heads=4, num_layers=3),
 
-    # transformer architecture scaled up
-    "gpt": GPT_v7(vocab_size=vocab_size, n_embd=384, block_size=256, dropout=0.2, num_heads=6, num_layers=6)
+    # Transformer architecture scaled up
+    "2_t_scaled": GPT_v7(vocab_size=vocab_size, n_embd=384, block_size=256, dropout=0.2, num_heads=6, num_layers=6)
 }
 
 def process_model(model_id: str, hyperparameters: dict):
@@ -83,8 +83,8 @@ def process_model(model_id: str, hyperparameters: dict):
     print(generate(model, context=dummy_input, tokenizer=tokenizer))
 
 # # Example usage
-# process_model("multi-attention", hyperparameters_small)
+process_model("1_transformer", hyperparameters_small)
 
-for model_id in models.keys():
-    print(f"\n\n\n**************\nProcessing model {model_id}")
-    process_model(model_id, hyperparameters_small)
+# for model_id in models.keys():
+#     print(f"\n\n\n**************\nProcessing model {model_id}")
+#     process_model(model_id, hyperparameters_small)
