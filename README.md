@@ -5,7 +5,7 @@
     <h1 align="center">GPTLabs</h1>
 </p>
 <p align="center">
-    <em>Building and Training Generative Pre-trained Transformers Step-by-Step</em>
+    <em>Building and Training Transformers Step-by-Step</em>
 </p>
 <p align="center">
     <em>Developed with the software and tools listed below.</em>
