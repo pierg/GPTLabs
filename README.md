@@ -8,13 +8,9 @@
     <em>Building and Training Transformers Step-by-Step</em>
 </p>
 <p align="center">
-    <em>Developed with the software and tools listed below.</em>
-</p>
-<p align="center">
-    <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25.svg?style=flat&logo=GNU-Bash&logoColor=white" alt="GNU Bash">
     <img src="https://img.shields.io/badge/Poetry-60A5FA.svg?style=flat&logo=Poetry&logoColor=white" alt="Poetry">
     <img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
-    <img src="https://img.shields.io/badge/ONNX-005CED.svg?style=flat&logo=ONNX&logoColor=white" alt="ONNX">
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white" alt="PyTorch">
 </p>
 <hr>
 
